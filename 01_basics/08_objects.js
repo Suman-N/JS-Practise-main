@@ -38,7 +38,7 @@ console.log(user);
 //Merging of two objects
 
 const obj1 = { 1: 'a', 2: 'b' }
-const obj2 = { 3: 'c', 4: 'd' }
+const obj2 = { 2: 'g', 3: 'c', 4: 'd' }
 
 // const obj3 = Object.assign({}, obj1, obj2) //assign method is used to merge two objects {} empty brackets
 // will store the variables 

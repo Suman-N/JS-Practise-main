@@ -9,23 +9,23 @@ if (userLoggedIn) {
 }
 
 
-const age = 20 
+const age = 20
 
-if(age < 20){ // if else condition
+if (age < 20) { // if else condition
     console.log("Your age is below 20");
 }
-else{
+else {
     console.log("Your age is 20");
 }
 
 const sumanAge = 18
 
-if(sumanAge < 18){ //if else if condition
+if (sumanAge < 18) { //if else if condition
     console.log("Suman is not an Adult yet");
 }
-else if(sumanAge > 18){
+else if (sumanAge > 18) {
     console.log("Suman is above 18 now");
-}else{
+} else {
     console.log("Suman is older");
 }
 
@@ -77,47 +77,47 @@ switch (month) {
         break;
 }
 
-// if else woth && and || operator
+// if else with && and || operator
 
 const debitCard = true
 
-if(userLoggedIn && debitCard){
+if (userLoggedIn && debitCard) {
     console.log("User loggged in with debit card");
 }
 
-if(userLoggedIn || debitCard){
+if (userLoggedIn || debitCard) {
     console.log("User loggged in");
 }
 
 
-//  let's understand soe truthy and falsy values
+//  let's understand some truthy and falsy values
 
 // false, 0, -0, BigInt 0n, "", null, undefined, NaN       // these are falsy values by default
 
 // true, 'false', "0", [], {}, " " // these are the truthy values by default
 
-const user = undefined
+const user = []
 
-if(user){
+if (user) {
     console.log("user is true");
-}else{
+} else {
     console.log("user is false");
 }
 
 // How to check empty array and empty objects value
 
 const array = []
-if (array.length === 0){ // we can check the array with length method
+if (array.length === 0) { // we can check the array with length method
     console.log("Array is empty");
-}else{
+} else {
     console.log("Array is containing some values");
 }
 
 const object = {}
 
-if (Object.keys(object).length === 0){ // we can access the keys of object with keys method
+if (Object.keys(object).length === 0) { // we can access the keys of object with keys method
     console.log("Object is empty");
-}else{
+} else {
     console.log("object is containing a value");
 }
 

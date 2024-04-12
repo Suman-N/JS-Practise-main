@@ -3,7 +3,7 @@
 // console.log(this); // will return global empty {} object
 
 const user = {
-    username : "Suman",
+    username: "Suman",
     address: "Ahmedabad",
     age: 27,
     welcomeMessage: function name() {
@@ -30,17 +30,17 @@ const arraow = () => {
 
 // arraow();
 
-() => {} // syntax of arrow function
+() => { } // syntax of arrow function
 
 const hello = () => "Hello"
-// console.log(hello());
+    // console.log(hello());
 
-// IIFE Immediate invoked function expression
+    // IIFE Immediate invoked function expression
 
-// () () // first () for function defination and second () for execution
+    // () () // first () for function defination and second () for execution
 
-((name) => {console.log(`Hello ${name}`)})("Suman");
+    ((name) => { console.log(`Hello ${name}`) })("Suman");
 
-(function () {
-    console.log(`"HI Sumna"`)
-})()
+// (function () {
+//     console.log(`"HI Sumna"`)
+// })()

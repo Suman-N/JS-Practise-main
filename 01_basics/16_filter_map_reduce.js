@@ -3,7 +3,7 @@
 
 const num = [1, 2, 3, 4, 5]
 
-const mynum = num.filter( (n) => n > 2)
+const mynum = num.filter((n) => n > 2)
 // console.log(mynum);
 
 const book = [
@@ -24,7 +24,7 @@ const book = [
     },
 ]
 
-const mybooks = book.filter( (bk) => { return bk.publish >= 2000 && bk.genre === "History"})
+const mybooks = book.filter((bk) => { return bk.publish >= 2000 && bk.genre === "History" })
 // console.log(mybooks);
 
 // map method will create a new array populated with the results of calling a provided 
@@ -33,27 +33,28 @@ const mybooks = book.filter( (bk) => { return bk.publish >= 2000 && bk.genre ===
 
 const numbers = [1, 2, 3, 4, 5]
 
-const newNums = numbers.map( (num) => {
+const newNums = numbers.map((num) => {
     return num * 2
 })
 console.log(newNums);
 
-const multinums = numbers.filter( (num) => num >= 2)
-                        .map( (num) => num * 3)
+const multinums = numbers.filter((num) => num >= 2)
+    .map((num) => num * 3)
 
-                        console.log(multinums);
+console.log(multinums);
 
 
- 
-                        
- // reduce method will accept two parameters acc. and currval acc iss empty variable which will take 
- // initial value and currval will take value from array
- 
- 
- const number = [1, 2, 3, 4, 5]
 
- const mynumber = number.reduce( (acc, currval) => { 
+
+// reduce method will accept two parameters acc. and currval acc iss empty variable which will take 
+// initial value and currval will take value from array
+
+
+const number = [1, 2, 3, 4, 5]
+
+const mynumber = number.reduce((acc, currval) => {
     console.log(`acc ${acc} + currentValue ${currval}`);
-    return acc + currval}, 0)  
+    return acc + currval
+}, 0)
 
- console.log(mynumber);
+console.log(mynumber);
